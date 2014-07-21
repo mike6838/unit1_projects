@@ -4,12 +4,12 @@ body {
   background: #F781F3
 }
 
-/*#wrapper {
+#wrapper {
 	width: 760px;
 	margin-right: auto;
 	margin-left: auto;
-	background: #000099;
-}*/
+	background: #F781F3;
+}
 
 #header {
 	margin-right: auto;
@@ -32,12 +32,12 @@ body {
    background: #6A0888;
 }
 
-/*#space {
+#space {
 	height: 50px;
 	clear: both;
-	background: #000099;
+	background: #F781F3;
 }
-*/
+
 #footer {
 	clear: both;
     position: relative;
@@ -46,4 +46,31 @@ body {
     margin-top: -3em;
 	background: #6A0888;
 
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h4 { 
+   position: absolute; 
+   top: 175px; 
+   left: 2; 
+   width: 50px; 
+}
+
+h4 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background-color: #F781F3;
+   padding: 10px; 
+}
+
+a:hover {
+  color: #a9b2b9;
+}
+a {
+  color: #648880;
 }
