@@ -15,7 +15,7 @@ a:hover {
 }
 
 a:visited {
-	color: gray;
+	color: #585858;
 }
 
 #wrapper {
@@ -76,9 +76,12 @@ footer {
     position: relative;
     border-radius: 15px;
     margin-bottom: 0px;
-    height: 100px;
+    height: 80px;
     margin-top: -3em;
     padding: 1px;
 	background: #6B6B96;
+}
 
+footer a {
+	padding: 2px;
 }
